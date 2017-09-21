@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="lucensy">#00000001</color>
+    <color name="violet">#464E99</color>
+    <color name="darkviolet">#394297</color>
+    <color name="translucency">#e0000000</color>
+    <color name="blue">#0066dd</color>
+    <color name="black">#333333</color>
+    <color name="red">#cd0102</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="trans">#50000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="darkgray">#74787c</color>
+    <color name="blue_custom">#03a679</color>
+    <color name="orange">#FFA500</color>
+    <color name="darkorange">#ea5f24</color>
+    <color name="orangered">#f8601e</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    
+    <!-- 背景色 -->
+    <color name="bg_color">#ded0c8</color>
+    <!-- 背景色1 -->
+    <color name="bg_color1">#663725</color>
+
+    <!-- 白烟 -->
+    <color name="dimgray">#696969</color>
+    <!-- 暗淡灰 -->
+    <color name="gray">#a5a5a5</color>
+    <!-- 灰色 -->
+    <!-- 亮绿色 -->
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="green">#34b275</color>
+    <!-- 青色 -->
+    <color name="cyan">#00ffff</color>
+    <!-- 闪兰色 -->
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="barcode_textcolor">#FFEEF2F7 </color>
+    <color name="transparent">#00000000</color>
+    <color name="wostoreeditcolor">#969696</color>
+    <color name="darkyellow">#cc9933</color>
+    <color name="lightyellow">#ffcc33</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="rred">#B22222</color>
+    <color name="menu">#212121</color>
+    <color name="brown">#F6EEEB</color>
+    <color name="gray_white">#f5f5f5</color>
+    <color name="search_textcolore">#803207</color>
+    <!-- 亮黄色 -->
+    <color name="info_color">#803207</color>
+    <color name="color_text_normal">#000000</color>
+    <color name="color_text_selected">#FFFFFFFF</color>
+    <color name="list_item_pressed">#EBEBEB</color>
+
+    <!-- 列表线条颜色 -->
+    <color name="list_line">#d0d0d0</color>
+    <!-- 下拉刷新文字颜色 橙色 -->
+    <color name="pull_to_fresh_textcolor">#ff7f09</color>
+
+    <!-- ViewPager切换标签栏点击背景 -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <!-- wheel view 色值 -->
+    <!-- centerDrawble 中间图片 -->
+    <color name="center_drawble_start">#00000000</color>
+    <color name="center_drawble_center">#00000000</color>
+    <color name="center_drawble_end">#00000000</color>
+    <color name="center_drawble_stroke">#f8601e</color>
+
+    <color name="titleBgColor">#6495ED</color>
+    <color name="bgColor">#F2F2F2</color>
+    <color name="divideLineColor">#E6E6E6</color>
+    <color name="textColorGray">#FFFFF0</color>
+    <color name="textColorGrayTwo">#A2A2A2</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorRed">#F93A60</color>
+    <color name="textColorBlack">#2B2B2B</color>
+    <color name="textColorTip">#ff979797</color>
+    <color name="tabTextColor">#ff507ba7</color>
+    <color name="tabTextColorSelected">#ff224477</color>
+    <color name="calendarBtColor">#4F94CD</color>
+    <color name="titleTextColor">#1780C7</color>
+    <color name="tipsTextColor">#4A5761</color>
+
+    <color name="common_title">#cd0102</color>
+    
+    <color name="common_title_right_btn">#cd0102</color>
+    
+    <color name="common_dialog_confirm_title">#f8601e</color>
+    
+    <color name="common_btn_bg_normal">#cd0102</color>
+    
+    <color name="common_btn_bg_click">#cd0102</color>
+    
+    <color name="common_share_title">#cd0102</color>
+    <color name="common_share_btn">#000000</color>
+    
+</resources>

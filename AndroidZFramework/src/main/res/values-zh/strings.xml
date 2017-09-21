@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="common_loading_title">努力加载中\u2026</string>
+    <string name="common_net_disconnect">网络连接已断开，请检查网络连接。</string>
+    <string name="common_net_time_out">网络连接超时，请稍后再试！</string>
+    <string name="common_net_unauthorized">账号登录过期，请重新登录！</string>
+    <string name="common_net_system_maintenance">系统维护中，请稍后再试！</string>
+    <string name="common_net_disconnect_click_refresh">网络连接已断开，请检查网络连接后点击刷新。</string>
+    <string name="common_net_disconnect_refresh">网络连接已断开，请连接网络后下拉刷新数据！</string>
+    <string name="common_net_time_out_pull_refresh">网络连接超时，试试下拉刷新！</string>
+    <string name="common_net_time_out_click_refresh">网络连接超时，点击刷新下试试！</string>
+    <string name="common_data_empty">未查询到数据。</string>
+    <string name="qbcode_button_showtext">扫描桌上的二维码获取菜单</string>
+
+    <string name="common_submit_data">正在提交\u2026</string>
+    
+    <string name="common_net_notify_slow">真烦人，网络信号太不稳定了\u2026</string>
+    <string name="common_net_notify_stop">真烦人，网络好像连接不上了\u2026</string>
+</resources>

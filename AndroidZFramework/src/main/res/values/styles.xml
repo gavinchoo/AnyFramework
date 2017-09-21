@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="DialogCustomTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="in_out" mce_bogus="1" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/scale_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/scale_dialog_out</item>
+    </style>
+
+    <style name="right_left" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/in_from_right</item>
+        <item name="android:windowExitAnimation">@anim/out_to_right</item>
+    </style>
+
+    <style name="TransparentTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- scrollbar样式 -->
+    <style name="Theme_Scrollbar">
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:scrollbarSize">4dip</item>
+    </style>
+
+    <style name="Theme_Dialog_Activity">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Dialog的无标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 模糊  是否允许背景灰暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Light.NoTitle" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme_Bill_Popupwindow">
+        <item name="android:windowEnterAnimation">@anim/popup_move_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_move_out</item>
+    </style>
+
+</resources>

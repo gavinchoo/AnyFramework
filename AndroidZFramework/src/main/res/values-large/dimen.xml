@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="num_cols">1</integer>
+
+    <!-- 文本字体 -->
+    <dimen name="dimen_text">15dip</dimen>
+    <dimen name="dimen_text_sm">14dip</dimen>
+    <dimen name="dimen_text_mini">12dip</dimen>
+    
+    <!-- 一级标题字体 -->
+    <dimen name="dimen_title1">21dip</dimen>
+    <!-- 二级标题字体 -->
+    <dimen name="dimen_title2">19dip</dimen>
+    <!-- 三级标题字体 -->
+    <dimen name="dimen_title3">17dip</dimen>
+    
+    <!-- 公共标题栏标题字体 -->
+    <dimen name="common_title_tvew_txt">20dip</dimen>
+    <!-- 公共标题栏右侧标题字体 -->
+    <dimen name="common_title_tvew_right_btn">16dip</dimen>
+    
+    <dimen name="margin_5">10dip</dimen>
+    <dimen name="margin_10">15dip</dimen>
+    <dimen name="margin_15">20dip</dimen>
+    <dimen name="margin_20">25dip</dimen>
+
+    <dimen name="title_bar_height">50dip</dimen>
+    
+    <dimen name="image_panel_height_big">200dip</dimen>
+    <dimen name="image_panel_height_middle">150dip</dimen>
+    <dimen name="image_panel_height_small_middle">120dip</dimen>
+    
+    <dimen name="image_height_middle">100dip</dimen>
+    <dimen name="image_height_small_middle">80dip</dimen>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="5dip" >
+
+        <RelativeLayout
+            android:id="@+id/rlayout_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/update_dialog_title_bg" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:text="正在下载"
+                android:textColor="#2b2b2b"
+                android:textSize="16dip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/update_dialog_btn_bg" >
+
+            <ProgressBar
+                android:id="@+id/update_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="20dip"
+                android:layout_toLeftOf="@+id/update_progress_text"
+                android:max="100"
+                android:progressDrawable="@drawable/update_horizontal_progress_bar" />
+
+            <TextView
+                android:id="@+id/update_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="14dip"
+                android:text="0%"
+                android:textColor="@color/gray"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/update_progress_install"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dip"
+                android:visibility="gone"
+                android:gravity="center"
+                android:text="立即安装"
+                android:textColor="@color/orangered"
+                android:textSize="16dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

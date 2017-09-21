@@ -1,0 +1,42 @@
+<!-- 意见反馈 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <EditText
+            android:id="@+id/editvew_content_show"
+            style="@style/EditText_Wrap_Mulity_Black_Text"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/common_edit_bg"
+            android:gravity="left|top"
+            android:hint="填写您宝贵的意见"
+            android:minLines="8"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            android:textCursorDrawable="@drawable/editvew_cursor_drawble" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvew_submit_click"
+        style="@style/Text_Wrap_White_Text_Title3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_margin="20dip"
+        android:background="@drawable/common_btn_selector"
+        android:text="提交" />
+
+</LinearLayout>

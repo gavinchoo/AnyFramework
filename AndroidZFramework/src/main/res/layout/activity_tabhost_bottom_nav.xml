@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dip"
+    android:layout_alignParentBottom="true" >
+
+    <RadioGroup
+        android:id="@+id/activity_tabhost_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/activity_tabhost_radio_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>
